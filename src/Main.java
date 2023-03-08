@@ -30,7 +30,6 @@ public class Main {
         Random random = new Random();
         for (int i = 0; i < a; i++) {
             completeList.add(i, random.nextInt(b));
-
         }
         System.out.print("Вот случайный список: " + printList(completeList));
         return completeList;
